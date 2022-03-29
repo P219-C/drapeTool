@@ -1,3 +1,7 @@
+from pykrige.ok import OrdinaryKriging
+from pykrige.kriging_tools import write_asc_grid
+import pykrige.kriging_tools as kt
+
 def create_krig_grid(self, df, df_data='', spacing=500, top=''):
         """
         this will create and export/display a krig grid over the df points. it will auto generate a grid
